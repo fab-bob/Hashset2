@@ -9,8 +9,10 @@ public class Main {
 
         HashSet<Integer> numbersFromZerotoTen = fillHashSet();
         numbersFromZerotoTen.add(num);
-        System.out.println(numbersFromZerotoTen.contains(11));
-        System.out.println(numbersFromZerotoTen);
+        if (numbersFromZerotoTen.contains(11)) {
+            System.out.println(numbersFromZerotoTen);
+
+        }
     }
     public static HashSet<Integer> fillHashSet () {
         HashSet<Integer> numbers = new HashSet<>();
